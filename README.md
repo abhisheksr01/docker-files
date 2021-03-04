@@ -17,10 +17,10 @@ Before executing the command you must be logged in to the registry (Docker Hub, 
 If a vulnerability has been identified that the images won't be pushed to the registry.
 
 ```
-./build-push-image.sh [DOCKER_HUB_USERNAME] [DIRECTORY/DOCKER_IMAGE_NAME] [TAG]
+./build-scan-push-image.sh [DOCKER_HUB_USERNAME] [DIRECTORY/DOCKER_IMAGE_NAME] [TAG]
 ```
 
 Example execution of the command:
 ```
-./build-push-image.sh abhisheksr01 eks-helm 0.0.1
+./build-scan-push-image.sh abhisheksr01 eks-helm 0.0.1
 ```
