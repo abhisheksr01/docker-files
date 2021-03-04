@@ -11,10 +11,13 @@ emojiFunction() {
   printf '\n'
 }
 
-echo "Changing directory to $2"
-docker build -t $1/"$2":latest .
-docker tag $1/"$2":latest "$1/$2:$3"
-docker push $1/"$2":latest
+echo "Changing directory to $2 & building docker image"
+docker build -t "$1/$2:latest" .
+docker tag "$1/$2:latest" "$1/$2:$3"
+
+echo "Scanning the docker image locally using trivy.."
+../vulnerability-checks.sh $1 $2 $3
+docker push "$1/$2:latest"
 docker push "$1/$2:$3"
 
 # Print success message
