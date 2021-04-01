@@ -8,7 +8,8 @@ The repo contains below docker files, click on the individual link to learn more
 
 - [alpine](./alpine)
 - [eks-helm](./eks-helm)
-- [terraform-pytest](./terraform-pytest)
+- [aws-pytest](./terraform-pytest)
+- [py-poetry](./py-poetry)
 
 ## Building an image
 

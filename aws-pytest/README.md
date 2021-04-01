@@ -1,6 +1,6 @@
 # Terraform Pytest Docker Image
 
-This is Python3.9 based image built for testing the Terraform using python's pytest module in CI.
+This is Python3.9 based image built for testing the AWS Infrastructure using python's pytest module in CI.
 
 Currently hosted in docker hub & can be pulled by executing below command:
 

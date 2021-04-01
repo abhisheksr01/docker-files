@@ -15,7 +15,7 @@ echo "Unzipping AWS CLI"
 unzip awscliv2.zip
 echo "Installing AWS CLI"
 ./aws/install
-echo "Installing AWS Completed & Version is:"
+echo "Installing AWS CLI Completed & Version is:"
 aws --version
 
 echo "install kubectl"
