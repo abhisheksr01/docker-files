@@ -1,4 +1,4 @@
-FROM python:3.9.2-buster
+FROM python:3.9.5-buster
 
 # Metadata
 LABEL org.opencontainers.image.title="abhisheksr01/py-poetry" \
