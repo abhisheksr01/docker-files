@@ -1,0 +1,30 @@
+# [Docker Utils](https://hub.docker.com/r/abhisheksr01/docker-utils)
+
+This image is built from [docker:20.10](https://hub.docker.com/_/docker?tab=description&page=1&ordering=last_updated) which is docker-in-docker base image.
+
+The image also contains [hadolint](https://github.com/hadolint/hadolint) for Dockerfile linting and [Trivy](https://github.com/aquasecurity/trivy) for scanning docker images.
+
+## Usage
+
+Ideally the docker-utils images is meant for using it within a CI/CD pipeline for building docker image  & performing additional operations like lining & image vulnerability scanning.
+
+Sample usage can be found here:
+
+-  [Concourse](https://github.com/abhisheksr01/spring-boot-microservice-best-practices/blob/ad3f66bac9b777c52a1f56659f413acfc47ece39/concourse-ci/pipeline.yml#L98)
+- [CircleCI](https://github.com/abhisheksr01/spring-boot-microservice-best-practices/blob/ad3f66bac9b777c52a1f56659f413acfc47ece39/.circleci/config.yml#L157)
+
+Currently hosted in docker hub & can be pulled by executing below command:
+
+```
+docker pull abhisheksr01/docker-utils:latest
+```
+
+## Tooling
+
+| Tool          | Version Installed       |
+|:--------------|:------------------------|
+| docker        | 20.10.6                 |
+| curl          | 7.77.0-r0               |
+| bash          | 5.1.0-r0                |
+| hadolint      | 2.4.1                   |
+| trivy         | 0.18.3                  |

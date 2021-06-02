@@ -7,8 +7,9 @@ Collection of custom Dockerfile's for various purposes and are stored in Docker 
 The repo contains below docker files, click on the individual link to learn more.
 
 - [alpine](./alpine)
-- [eks-helm](./eks-helm)
 - [aws-pytest](./terraform-pytest)
+- [docker-utils](./docker-utils)
+- [eks-helm](./eks-helm)
 - [py-poetry](./py-poetry)
 
 ## Building an image
