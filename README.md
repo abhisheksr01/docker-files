@@ -8,7 +8,7 @@ The repo contains below docker files, click on the individual link to learn more
 
 - [alpine](./alpine)
 - [aws-pytest](./terraform-pytest)
-- [docker-utils](./docker-utils)
+- [dind-utils - Docker in Docker Utils](./dind-utils)
 - [eks-helm](./eks-helm)
 - [py-poetry](./py-poetry)
 
