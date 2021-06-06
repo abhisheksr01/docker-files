@@ -15,13 +15,14 @@ The repo contains below docker files, click on the individual link to learn more
 ## Building an image
 
 The below command performs 3 key operations:
+* Performs Dockerfile linting using [hadolint](https://github.com/hadolint/hadolint)
 * Creates the docker image with the given tag
 * Locally scan the docker image vulnerabilities using [Trivy](https://github.com/aquasecurity/trivy)
 * Push the image to the registry
 
 Note:
 
-Before executing the command you must be logged in to the registry (Docker Hub, JFrog etc).</br>
+Before executing the command you must have Docker running and logged in to the registry (Docker Hub, JFrog etc).</br>
 If a vulnerability has been identified than the image won't be pushed to the registry.
 
 Execute below command from the root of the directory:

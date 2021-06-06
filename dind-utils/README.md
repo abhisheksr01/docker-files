@@ -2,13 +2,13 @@
 
 This image is built from [docker:20.10](https://hub.docker.com/_/docker?tab=description&page=1&ordering=last_updated) which is docker-in-docker base image.
 
-The image contains utilities like [hadolint](https://github.com/hadolint/hadolint) for Dockerfile linting and [Trivy](https://github.com/aquasecurity/trivy) for scanning docker images.
+The image contains utilities like [hadolint](https://github.com/hadolint/hadolint) for Dockerfile linting and [Trivy](https://github.com/aquasecurity/trivy) for scanning Docker images.
 
 ## Usage
 
-Ideally the docker-utils images is meant for using it within a CI/CD pipeline for building docker image  & performing additional operations like lining & image vulnerability scanning.
+Ideally, the docker-utils images are meant for using it within a CI/CD pipeline for building docker image  & performing additional operations like lining & image vulnerability scanning.
 
-Sample usage can be found here:
+Sample usage in a CI/CD pipeline can be found here:
 
 - [CircleCI](https://github.com/abhisheksr01/spring-boot-microservice-best-practices/blob/ad3f66bac9b777c52a1f56659f413acfc47ece39/.circleci/config.yml#L157)
 
