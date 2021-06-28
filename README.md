@@ -28,8 +28,9 @@ If a vulnerability has been identified than the image won't be pushed to the reg
 Execute below command from the root of the directory:
 
 ```
-./build-scan-push-image.sh [DOCKER_HUB_USERNAME] [DIRECTORY/DOCKER_IMAGE_NAME] [TAG]
+./build-scan-push-image.sh [DOCKER_HUB_USERNAME] [DIRECTORY_NAME] [TAG]
 ```
+Here your directory name is going to be the Docker Image Name.
 
 Example execution of the command:
 ```

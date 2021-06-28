@@ -15,6 +15,9 @@ echo "Changing directory to $2 & performing linting.."
 docker run --rm -i hadolint/hadolint < Dockerfile
 
 echo "Building docker image $1/$2 with tags $3 and latest" 
+echo "Changing directory to $2 & building docker image"
+docker build -t "$1/$2:latest" .
+docker tag "$1/$2:latest" "$1/$2:$3"
 
 echo "Scanning the docker image locally using trivy.."
 ../vulnerability-checks.sh $1 $2 $3
