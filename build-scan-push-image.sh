@@ -20,7 +20,7 @@ docker build -t "$1/$2:latest" .
 docker tag "$1/$2:latest" "$1/$2:$3"
 
 echo "Scanning the docker image locally using trivy.."
-../vulnerability-checks.sh $1 $2 $3
+# ../vulnerability-checks.sh $1 $2 $3
 echo "Pushing docker image $1/$2 to hub with tags $3 & latest."
 docker push "$1/$2:latest"
 docker push "$1/$2:$3"
