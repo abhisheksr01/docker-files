@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM alpine:3.15
 
 # Metadata
 LABEL org.opencontainers.image.title="abhisheksr01/alpine" \
