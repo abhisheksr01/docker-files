@@ -6,7 +6,6 @@ Collection of custom Dockerfile's for various purposes and are stored in Docker 
 
 The repo contains below docker files, click on the individual link to learn more.
 
-- [alpine](./alpine)
 - [aws-pytest](./terraform-pytest)
 - [dind-utils - Docker in Docker Utils](./dind-utils)
 - [dind-utils-concourse - Docker in Docker Utils for Concourse](./dind-utils-concourse)
