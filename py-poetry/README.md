@@ -16,5 +16,5 @@ docker pull abhisheksr01/py-poetry:1.0.0
 
 | py-poetry Image version | Major tools available in the image |
 |:------------------------|:-----------------------------------|
-| 0.0.3                   | python=3.9, poetry=1.3, pip=3      |
 | 1.0.0 (latest)          | python=3.11, poetry=1.7.1, pip=3   |
+| 0.0.3                   | python=3.9, poetry=1.3, pip=3      |
