@@ -1,7 +1,16 @@
 # Docker-Files
 
-Collection of custom Dockerfile's for various purposes and are stored in Docker Hub with a pattern **abhisheksr01/[IMAGE-NAME]**
+Collection of custom Dockerfile's for various purposes and are hosted on Docker Hub with a pattern **abhisheksr01/[IMAGE-NAME]**
 
+## Multi-Platform Docker Images
+
+Docker images can support multiple platforms, which means that a single image may contain variants for different architectures, and sometimes for different operating systems, such as Windows.
+
+When you run an image with multi-platform support, Docker automatically selects the image that matches your OS and architecture.
+
+This is one of the most common issues we will find when using Macbook Intel vs Macbook M series chipset. To learn more about it [click here](https://docs.docker.com/build/building/multi-platform/)
+
+Before you begin ensure you have enabled `containerd image store`. [Click here to see the instructions](https://docs.docker.com/desktop/containerd/#turn-on-the-containerd-image-store-feature)
 ## List of Dockerfiles
 
 The repo contains below docker files, click on the individual link to learn more.
