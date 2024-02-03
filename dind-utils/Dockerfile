@@ -1,4 +1,4 @@
-FROM docker:24.0.7
+FROM docker:24.0.9
 
 LABEL org.opencontainers.image.title="abhisheksr01/dind-utils" \
       org.opencontainers.image.url="https://hub.docker.com/repository/docker/abhisheksr01/dind-utils"
